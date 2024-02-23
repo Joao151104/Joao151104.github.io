@@ -51,17 +51,12 @@ h1 {
 .skills {
     margin: auto;
     margin-top: 0%;
+    margin-bottom: 2vh;
     display: flex;
     flex-direction: column;
 }
 
-.conteudo{ 
-    display: flex;
-    margin-left: 25vw;
-    flex-direction: row;
-    text-align: center;
-    align-items: center;
-}
+
 
 .conteudo2 {
     display: flex;
@@ -88,6 +83,7 @@ h1 {
 
 .skills_ul{
     list-style: none;
+    text-align: center;
     font-family: "Montserrat";
     font-size: 32px;
     margin: auto;
@@ -107,16 +103,19 @@ p{
 }
 
 .imgs{
-    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
     height:auto;
-    margin-left: 25vw;
+    margin-left: 30vw;
     background-color: #fff;
+    border-radius: 30px;
 }
 
 .imgs_project{
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    margin-left: 1%;
-    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 80%;
     border: #fff;
 }
