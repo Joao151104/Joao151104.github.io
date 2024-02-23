@@ -1,0 +1,139 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body { 
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.pag1 {
+    width: 50vw;
+    height: 100vh;
+    background-color: #010037;
+    z-index: 3;
+}
+
+.msg_hello { 
+    margin-bottom: 3%;
+    padding-top: 25%;
+    padding-left: 10%;
+    animation-name: Mensagem_ola;
+    animation-duration: 1.5s;
+}
+
+@keyframes Mensagem_ola {
+    from {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+    to {
+        opacity: 100%;
+        transform: translateX(0px);
+    }
+}
+
+
+.hi {
+    color: #fff;
+    font-size: 6vh;
+    font-family: 'Montserrat';
+    font-weight: 100;
+}
+
+.hii {
+    color: #fff;
+    font-size: 6vh;
+    font-family: 'Montserrat';
+    font-weight: 100; 
+}
+
+span {
+    color: #FFB800;
+    font-weight: bolder;
+}
+
+.apre {
+    color: #fff;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-left: 10%;
+    margin-right: 15%;
+    animation-name: apresentacao;
+    animation-duration: 2s;
+}
+
+@keyframes apresentacao { 
+    from{opacity: 0; transform: translateX(300px);}
+    to{opacity: 1;}
+}
+
+.Prof {
+    color: #010037;
+    background-color: #FFB800;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1%;
+    margin-left: 10%;
+    animation-name: profissao;
+    animation-duration: 3s; /* Adicionando a duração da animação */
+}
+
+@keyframes profissao {
+    from {
+        opacity: 0; 
+    }
+    to {
+        opacity: 1; /* Corrigindo a opacidade para 1 */
+    }
+}
+
+.btn { 
+    padding: 25px 40px;
+    background-color: #FFB800;
+    color: #010037;
+    font-size: 1.5rem;
+    border-radius: 45px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #fff;
+}
+
+.btn_project { 
+    padding: 25px 40px;
+    background-color: #010037;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 45px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    margin-top: 10vh;
+    margin-left: 27vw;
+}
+
+.btn_project:hover {
+    background-color: #fff;
+    color: #010037;
+}
+.img {
+    width: 50vw;
+    height: 100vh;
+    background-image: url(../IMGS/IMG_0138.png);
+    background-size: cover;
+}
+
+
