@@ -33,6 +33,7 @@
     .apre {
         color: #fff;
         font-size: 3vw;
+        font-weight: bolder;
         text-align: justify;
         font-family: 'Montserrat', sans-serif;
         padding-bottom: 5%;
@@ -84,6 +85,7 @@
     }
     p{
         font-size: 3vw;
+        font-weight: 600;
     }
 
     .imgs_project{
@@ -98,5 +100,13 @@
 
     .btn_project{ 
         margin-left: 0;
+    }
+
+    ul{
+        margin-left:-10vw;
+    }
+
+    .skills_ul{ 
+        margin: auto;
     }
 }
