@@ -85,7 +85,6 @@
     }
     p{
         font-size: 4vw;
-        font-weight: 600;
     }
 
     .imgs_project{
@@ -101,6 +100,7 @@
     .btn_project{ 
         margin-left: 0;
     }
+
 
     ul{
         margin-left:-10vw;
